@@ -1,0 +1,114 @@
+.wrapper{
+    width: 100%;
+    height: 100vh;
+}   
+.title{
+    position: absolute;
+    left:50%;
+    transform: translateX(-50%);
+    margin: 0 auto;
+    top: 200px;
+    color:black;
+    font-size: 100px;
+    text-align: center;
+    width: 100%;
+    min-width: 1000px;
+}
+.forma{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top:600px;
+    width: 2500px;
+    height: 100px;
+    white-space: nowrap;
+}
+.todos{
+    width:2500px;
+    position: absolute;
+    left:50%;
+    transform: translateX(-50%);
+    margin-top:700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 0px;
+    padding-top:100px;
+}
+.todo{
+    text-align: left;
+    padding-bottom: 10px;
+    padding-top:10px;
+    list-style:none;
+    height: 80px;
+    width: 2500px;
+    box-shadow: 10px 10px 10px 10px black;
+    border-radius: 5px;
+    font-size: 60px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+.done{
+    text-decoration:line-through ;
+}
+.delete{
+    position: absolute;
+    right: 10px;
+    width: 65px;
+    height: 65px;
+    cursor: pointer;
+}
+.edit{
+    position: absolute;
+    right: 90px;
+    width: 65px;
+    height: 65px;
+    cursor: pointer;
+}
+.editingInput{
+    position: absolute;
+    right: 0px;
+    left:0px;
+    width: 2480px;
+    box-shadow: 10px 10px 10px 10px black;
+    height: 80px;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 60px;
+    border: 14px;
+
+}
+.button-update{
+    position: absolute;
+    height: 105px;
+    width: 314px;
+    font-size: 50px;
+    color: white;
+    right: 0px;
+    padding-bottom: 0px;
+    background-color: black;
+    
+}
+.info{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    border: 10px solid black;
+    width: 2480px;
+    height: 100px;
+    font-size: 60px;
+    margin-top:50px; 
+    }
+.btnn{
+    margin-left: 2100px;
+    outline: none;
+    border:5px solid black;
+    font-size: 60px;
+    border-radius: 5px;
+    width: 400px;
+    height: 100px;
+    cursor: pointer;
+    background-color: black;
+    color:white;
+}

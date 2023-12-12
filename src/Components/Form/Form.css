@@ -1,0 +1,27 @@
+.input{
+    position: relative;
+    top:0px;
+    bottom: 0px;
+    padding-right: 0px;
+    padding-left: 20px;
+    background: transparent;
+    width: 2144px;
+    outline: none;
+    border: 10px solid black;
+    font-size: 50px;
+    color: black;
+    height: 100px;
+    max-width: 100%;
+    white-space: nowrap;
+}
+.button{
+    position: relative;
+    height: 118px;
+    width: 314px;
+    top:0px;
+    bottom: 0px;
+    border: 10px solid black;
+    font-size: 50px;
+    color: white;
+    background-color: black;
+}
