@@ -29,7 +29,7 @@ const Login = () => {
                 console.log("token:", token) 
                 navigate("/todo-list") 
              }else{
-                navigate('/')
+                navigate('/todortk')
             }
             } catch (err) { 
                 console.log(err) 

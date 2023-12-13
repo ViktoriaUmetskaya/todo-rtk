@@ -64,7 +64,7 @@ const Registration =()=>{
                 Registration
                 </button>
                 <div className='link-login'> 
-                    <Link className='link-log' to='/'>Login</Link> 
+                    <Link className='link-log' to='/todortk'>Login</Link> 
                 </div> 
             </form>
         </div>
